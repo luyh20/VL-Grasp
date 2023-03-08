@@ -59,7 +59,7 @@ Please download the dataset and allocate the dataset parameters at "./RoboRefIt/
 cd RoboRefIt
 sh train_roborefit.sh
 ```
-Thansks for the [RefTR model](https://github.com/ubc-vision/RefTR.)
+Thansks for the [RefTR model](https://github.com/ubc-vision/RefTR).
 
 ### 6-Dof Grasp Pose Detection Network
 
@@ -70,7 +70,7 @@ Please download the dataset and allocate the dataset parameters at "./GraspNet/t
 cd GraspNet
 sh train.sh
 ```
-Thansks for the [FGC-GraspNet model](https://github.com/luyh20/FGC-GraspNet)
+Thansks for the [FGC-GraspNet model](https://github.com/luyh20/FGC-GraspNet).
 
 ## Demo 
 
