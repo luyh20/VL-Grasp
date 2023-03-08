@@ -19,7 +19,7 @@ RoboRefIt/
 │       └── testB
 ```
 
-The homepage of the **RoboRefIt** dataset is at [RoboRefIt](https://github.com/luyh20/RoboRefIt.github.io). More details and statistics information about the dataset can be found in the homepage.
+The homepage of the **RoboRefIt** dataset is at [RoboRefIt](https://luyh20.github.io/RoboRefIt.github.io/). More details and statistics information about the dataset can be found in the homepage.
 
 
 ## Requirements
