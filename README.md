@@ -4,6 +4,8 @@ VL-Grasp: a 6-Dof Interactive Grasp Policy for Language-Oriented Objects in Clut
 
 The VL-Grasp is a interactive grasp policy combined with visual grounding and 6-dof grasp pose detection tasks. The robot can adapt to various observation views and more diverse indoor scenes to grasp the target according to a human's language command by applying the VL-Grasp. Meanwhile, we build a new visual grounding dataset specially designed for the robot interaction grasp task, called RoboRefIt.
 
+![teaser](logs/pipeline.png)
+
 ## Download the RoboRefIt Dataset
 
 
