@@ -1,0 +1,2 @@
+export CUDA_VISIBLE_DEVICES=4,5,6,7
+python3 -m torch.distributed.launch --nproc_per_node=8 --use_env main_vg.py --aux_loss --epochs 90 --batch_size 16 --data_root data/final_dataset --dataset roborefit --backbone resnet50 --lr 0.00001 --masks True --img_size 640 --img_type 'RGB' --output_dir outputs/roborefit
