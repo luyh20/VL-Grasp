@@ -1,10 +1,6 @@
-# FGC-GraspNet
-Official Implementation for paper "Hybrid Physical Metric For 6-DoF Grasp Pose Detection" ICRA 2022. 
+# GraspNet
 
-[arxiv](https://arxiv.org/abs/2206.11141)
-
-
-![teaser](doc/first.png)
+This module is based on our previous work [FGC_GraspNet](https://github.com/luyh20/FGC-GraspNet.git).
 
 ## Data Preparation
 Download the GraspNet-1Billion dataset from [graspnet](https://graspnet.net/datasets.html).
@@ -13,7 +9,7 @@ You can get the new score labels under hybrid physical metric from [here](https:
 The data directories should like this:
 
 ```
-FGC_GraspNet/
+GraspNet/
 ├── grasp_data/
 |       ├── scenes
 |       ├── models
@@ -36,7 +32,7 @@ FGC_GraspNet/
 ## Installation
 Get the code.
 ```bash
-git clone https://github.com/luyh20/FGC-GraspNet.git
+cd GraspNet/
 ```
 Install packages via Pip.
 ```bash
@@ -80,9 +76,6 @@ Run Demo:
 ```
 python demo.py
 ```
-
-## Video
-[![Video for FGC-GraspNet](https://i9.ytimg.com/vi_webp/gMoomsMJU_Y/mq1.webp?sqp=COSlpJsG-oaymwEmCMACELQB8quKqQMa8AEB-AHUBoAC3gOKAgwIABABGGUgYyhTMA8=&rs=AOn4CLAY_KqbACwxkemw7gMPLiYk8WuBkQ)](https://www.youtube.com/watch?v=gMoomsMJU_Y)
 
 ## BibTeX
 ```
