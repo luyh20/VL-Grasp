@@ -74,6 +74,11 @@ sh train.sh
 ```
 Thansks for the [FGC-GraspNet model](https://github.com/luyh20/FGC-GraspNet).
 
+## Model
+
+There are Google Drive links, checkpoint_best_r50.pth [https://drive.google.com/file/d/1HJQKnuiG5J02PZBQJc2KsW3RozmJYH-L/view?usp=sharing] 
+and checkpoint_fgc.tar [https://drive.google.com/file/d/1x4e23njqi4A_S_LlZPCUHjHT9CqFPzkc/view?usp=sharing].
+
 ## Demo 
 
 ```shell
