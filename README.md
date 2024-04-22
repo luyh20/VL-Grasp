@@ -1,6 +1,7 @@
 # VL-Grasp
+Official Implementation for paper "VL-Grasp: a 6-Dof Interactive Grasp Policy for Language-Oriented Objects in Cluttered Indoor Scenes" IROS 2023. 
 
-VL-Grasp: a 6-Dof Interactive Grasp Policy for Language-Oriented Objects in Cluttered Indoor Scenes
+[arxiv](https://arxiv.org/abs/2308.00640)
 
 The VL-Grasp is a interactive grasp policy combined with visual grounding and 6-dof grasp pose detection tasks. The robot can adapt to various observation views and more diverse indoor scenes to grasp the target according to a human's language command by applying the VL-Grasp. Meanwhile, we build a new visual grounding dataset specially designed for the robot interaction grasp task, called RoboRefIt.
 
@@ -85,6 +86,17 @@ and checkpoint_fgc.tar [https://drive.google.com/file/d/1x4e23njqi4A_S_LlZPCUHjH
 python main.py
 ```
 
+## BibTeX
+```
+@inproceedings{lu2023vl,
+  title={VL-Grasp: a 6-Dof Interactive Grasp Policy for Language-Oriented Objects in Cluttered Indoor Scenes},
+  author={Lu, Yuhao and Fan, Yixuan and Deng, Beixing and Liu, Fangfu and Li, Yali and Wang, Shengjin},
+  booktitle={2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={976--983},
+  year={2023},
+  organization={IEEE}
+}
+```
 
 
 
